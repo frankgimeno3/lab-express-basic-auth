@@ -1,2 +1,20 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
+<h2>Si ves este mensaje, NO estás loggeado!</h2>
+
+<hr>
+<a href="/user/login">Click here to go to login</a>
+<a href="/user/login">Click here to go to signup</a>
+<hr>
+ <div>
+            <p>El siguiente link es un gif secreto que sólo puedes ver si estás registrado!</p>
+            <a href="/user/private">Botón secreto</a>
+            <hr>
+
+            <p>Y este es un botón que te lleva a una imagen pública, que NO podrás ver si estás registrado!</p>
+            <a href="/user/main">Imagen pública</a>
+</div>
+<hr>
+<form action="/user/logout" method="post">
+  <button type="submit">Logout</button>
+</form>
